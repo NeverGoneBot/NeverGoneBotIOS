@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC97A501C62E072000388FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97A4F1C62E072000388FC /* AppDelegate.swift */; };
+		5DC97A521C62E072000388FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97A511C62E072000388FC /* ViewController.swift */; };
+		5DC97A551C62E072000388FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC97A531C62E072000388FC /* Main.storyboard */; };
+		5DC97A571C62E072000388FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC97A561C62E072000388FC /* Assets.xcassets */; };
+		5DC97A5A1C62E072000388FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC97A581C62E072000388FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DC97A4C1C62E072000388FC /* NeverGoneBot-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NeverGoneBot-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC97A4F1C62E072000388FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DC97A511C62E072000388FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DC97A541C62E072000388FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DC97A561C62E072000388FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DC97A591C62E072000388FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DC97A5B1C62E072000388FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DC97A491C62E072000388FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DC97A431C62E072000388FC = {
+			isa = PBXGroup;
+			children = (
+				5DC97A4E1C62E072000388FC /* NeverGoneBot-iOS */,
+				5DC97A4D1C62E072000388FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DC97A4D1C62E072000388FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC97A4C1C62E072000388FC /* NeverGoneBot-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DC97A4E1C62E072000388FC /* NeverGoneBot-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5DC97A4F1C62E072000388FC /* AppDelegate.swift */,
+				5DC97A511C62E072000388FC /* ViewController.swift */,
+				5DC97A531C62E072000388FC /* Main.storyboard */,
+				5DC97A561C62E072000388FC /* Assets.xcassets */,
+				5DC97A581C62E072000388FC /* LaunchScreen.storyboard */,
+				5DC97A5B1C62E072000388FC /* Info.plist */,
+			);
+			path = "NeverGoneBot-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DC97A4B1C62E072000388FC /* NeverGoneBot-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC97A5E1C62E072000388FC /* Build configuration list for PBXNativeTarget "NeverGoneBot-iOS" */;
+			buildPhases = (
+				5DC97A481C62E072000388FC /* Sources */,
+				5DC97A491C62E072000388FC /* Frameworks */,
+				5DC97A4A1C62E072000388FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NeverGoneBot-iOS";
+			productName = "NeverGoneBot-iOS";
+			productReference = 5DC97A4C1C62E072000388FC /* NeverGoneBot-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DC97A441C62E072000388FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Aadesh Patel";
+				TargetAttributes = {
+					5DC97A4B1C62E072000388FC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DC97A471C62E072000388FC /* Build configuration list for PBXProject "NeverGoneBot-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DC97A431C62E072000388FC;
+			productRefGroup = 5DC97A4D1C62E072000388FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DC97A4B1C62E072000388FC /* NeverGoneBot-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DC97A4A1C62E072000388FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC97A5A1C62E072000388FC /* LaunchScreen.storyboard in Resources */,
+				5DC97A571C62E072000388FC /* Assets.xcassets in Resources */,
+				5DC97A551C62E072000388FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DC97A481C62E072000388FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC97A521C62E072000388FC /* ViewController.swift in Sources */,
+				5DC97A501C62E072000388FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DC97A531C62E072000388FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC97A541C62E072000388FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DC97A581C62E072000388FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC97A591C62E072000388FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DC97A5C1C62E072000388FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DC97A5D1C62E072000388FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC97A5F1C62E072000388FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NeverGoneBot-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadeshpatel.NeverGoneBot-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DC97A601C62E072000388FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NeverGoneBot-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadeshpatel.NeverGoneBot-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DC97A471C62E072000388FC /* Build configuration list for PBXProject "NeverGoneBot-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC97A5C1C62E072000388FC /* Debug */,
+				5DC97A5D1C62E072000388FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC97A5E1C62E072000388FC /* Build configuration list for PBXNativeTarget "NeverGoneBot-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC97A5F1C62E072000388FC /* Debug */,
+				5DC97A601C62E072000388FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DC97A441C62E072000388FC /* Project object */;
+}
