@@ -27,7 +27,7 @@
     return keychain;
 }
 
-static NSString *const kServiceName = @"Wink";
+static NSString *const kServiceName = @"NeverGoneBot";
 
 - (instancetype)initWithGroup:(NSString *)group
 {
