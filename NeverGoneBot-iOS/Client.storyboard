@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Rpw-Vc-kU3">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="Nri-or-6hy" customClass="LoginViewController" customModule="NeverGoneBot_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DTl-0n-iEm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jlm-08-4Y0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2fN-5m-32n">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9K-Ny-d1L">
+                                <rect key="frame" x="30" y="295" width="540" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1960784314" green="0.58039215690000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Aaj-77-olZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="Nri-or-6hy" eventType="touchUpInside" id="wIK-bC-RQp"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jYv-V0-Nac" customClass="NVBTextField" customModule="NeverGoneBot_iOS" customModuleProvider="target">
+                                <rect key="frame" x="30" y="245" width="540" height="40"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gtB-lM-GVH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qy1-u0-7fR" customClass="NVBTextField" customModule="NeverGoneBot_iOS" customModuleProvider="target">
+                                <rect key="frame" x="30" y="205" width="540" height="40"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jYr-Tx-GBP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never Gone Bot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TE-eF-C5z">
+                                <rect key="frame" x="0.0" y="20" width="600" height="185"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o14-CL-mjx">
+                                <rect key="frame" x="30" y="355" width="540" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1960784314" green="0.58039215690000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LRN-y6-UGA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o14-CL-mjx" firstAttribute="top" secondItem="h9K-Ny-d1L" secondAttribute="bottom" constant="10" id="24X-xy-mxL"/>
+                            <constraint firstItem="h9K-Ny-d1L" firstAttribute="leading" secondItem="2fN-5m-32n" secondAttribute="leading" constant="30" id="3kF-Ua-S4j"/>
+                            <constraint firstItem="o14-CL-mjx" firstAttribute="leading" secondItem="2fN-5m-32n" secondAttribute="leading" constant="30" id="6ne-5H-zC4"/>
+                            <constraint firstAttribute="trailing" secondItem="7TE-eF-C5z" secondAttribute="trailing" id="8ZX-U2-xJT"/>
+                            <constraint firstItem="jYv-V0-Nac" firstAttribute="top" secondItem="qy1-u0-7fR" secondAttribute="bottom" id="9rL-rq-UPv"/>
+                            <constraint firstItem="h9K-Ny-d1L" firstAttribute="top" secondItem="jYv-V0-Nac" secondAttribute="bottom" constant="10" id="FdD-m3-hJg"/>
+                            <constraint firstAttribute="trailing" secondItem="jYv-V0-Nac" secondAttribute="trailing" constant="30" id="GPT-em-GFn"/>
+                            <constraint firstItem="h9K-Ny-d1L" firstAttribute="centerY" secondItem="2fN-5m-32n" secondAttribute="centerY" constant="20" id="LHo-wZ-Utf"/>
+                            <constraint firstItem="7TE-eF-C5z" firstAttribute="leading" secondItem="2fN-5m-32n" secondAttribute="leading" id="WpX-BW-Q8R"/>
+                            <constraint firstItem="qy1-u0-7fR" firstAttribute="leading" secondItem="2fN-5m-32n" secondAttribute="leading" constant="30" id="Y8y-YZ-9qM"/>
+                            <constraint firstItem="jYv-V0-Nac" firstAttribute="leading" secondItem="2fN-5m-32n" secondAttribute="leading" constant="30" id="bNk-yI-D6z"/>
+                            <constraint firstItem="qy1-u0-7fR" firstAttribute="top" secondItem="7TE-eF-C5z" secondAttribute="bottom" id="f7h-zm-CGK"/>
+                            <constraint firstAttribute="trailing" secondItem="o14-CL-mjx" secondAttribute="trailing" constant="30" id="lV5-7K-WYQ"/>
+                            <constraint firstItem="7TE-eF-C5z" firstAttribute="top" secondItem="DTl-0n-iEm" secondAttribute="bottom" id="ocD-2L-6em"/>
+                            <constraint firstAttribute="trailing" secondItem="qy1-u0-7fR" secondAttribute="trailing" constant="30" id="sx2-1v-eaB"/>
+                            <constraint firstAttribute="trailing" secondItem="h9K-Ny-d1L" secondAttribute="trailing" constant="30" id="xTm-af-hh7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="jYv-V0-Nac" id="hQQ-Hc-AG4"/>
+                        <outlet property="usernameTextField" destination="qy1-u0-7fR" id="tRc-0r-yzg"/>
+                        <segue destination="Fxd-nv-UjA" kind="show" identifier="login" id="uNk-ED-Atr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lcz-Mf-O3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="507" y="269"/>
+        </scene>
+        <!--Control View Controller-->
+        <scene sceneID="E75-2H-AOI">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="Fxd-nv-UjA" customClass="ControlViewController" customModule="NeverGoneBot_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bNh-wP-rD3"/>
+                        <viewControllerLayoutGuide type="bottom" id="o5e-An-dDE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4fn-jW-qRb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPK-Vi-PY5">
+                                <rect key="frame" x="490" y="490" width="100" height="100"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="3wi-U3-GcS"/>
+                                    <constraint firstAttribute="width" constant="100" id="Kaj-v9-d7z"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EV4-Du-EIJ">
+                                <rect key="frame" x="275" y="540" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="1O0-Cl-WT1"/>
+                                    <constraint firstAttribute="height" constant="50" id="5zv-2J-ss2"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fR9-oR-hjO">
+                                <rect key="frame" x="375" y="540" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vs5-iz-pKf"/>
+                                    <constraint firstAttribute="width" constant="50" id="wvG-lS-XVs"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2y-n7-ohL">
+                                <rect key="frame" x="175" y="540" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="97Z-Ja-BjX"/>
+                                    <constraint firstAttribute="width" constant="50" id="d3k-OD-yZ3"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2kn-rg-Gc4" customClass="JoystickView" customModule="NeverGoneBot_iOS" customModuleProvider="target">
+                                <rect key="frame" x="20" y="250" width="100" height="100"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="LZS-Co-IEl"/>
+                                    <constraint firstAttribute="height" constant="100" id="RFL-OE-alU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2kn-rg-Gc4" firstAttribute="centerY" secondItem="4fn-jW-qRb" secondAttribute="centerY" id="Bdi-af-wO3"/>
+                            <constraint firstItem="fR9-oR-hjO" firstAttribute="leading" secondItem="EV4-Du-EIJ" secondAttribute="trailing" constant="50" id="EKE-tI-ihI"/>
+                            <constraint firstItem="ZPK-Vi-PY5" firstAttribute="bottom" secondItem="fR9-oR-hjO" secondAttribute="bottom" id="NCn-v4-Uu5"/>
+                            <constraint firstItem="ZPK-Vi-PY5" firstAttribute="bottom" secondItem="EV4-Du-EIJ" secondAttribute="bottom" id="NDN-gJ-Or0"/>
+                            <constraint firstItem="2kn-rg-Gc4" firstAttribute="leading" secondItem="4fn-jW-qRb" secondAttribute="leading" constant="20" id="RLH-Sf-4S7"/>
+                            <constraint firstItem="ZPK-Vi-PY5" firstAttribute="bottom" secondItem="k2y-n7-ohL" secondAttribute="bottom" id="RNd-3D-EX4"/>
+                            <constraint firstItem="o5e-An-dDE" firstAttribute="top" secondItem="ZPK-Vi-PY5" secondAttribute="bottom" constant="10" id="lTY-Dt-p2P"/>
+                            <constraint firstItem="EV4-Du-EIJ" firstAttribute="centerX" secondItem="4fn-jW-qRb" secondAttribute="centerX" id="pke-Pb-XKY"/>
+                            <constraint firstAttribute="trailing" secondItem="ZPK-Vi-PY5" secondAttribute="trailing" constant="10" id="rl5-KN-uC4"/>
+                            <constraint firstItem="EV4-Du-EIJ" firstAttribute="leading" secondItem="k2y-n7-ohL" secondAttribute="trailing" constant="50" id="wp4-Ad-w0D"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIZ-XF-ZZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1166" y="269"/>
+        </scene>
+    </scenes>
+</document>

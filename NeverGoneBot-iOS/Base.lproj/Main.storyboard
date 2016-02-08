@@ -1,25 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uJn-uO-fis">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="pze-pi-KMx">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nwX-hD-icy" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="7fN-jJ-7n4"/>
+                        <viewControllerLayoutGuide type="bottom" id="yKW-Xy-SUz"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="jq9-88-EqU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVf-2M-Jug">
+                                <rect key="frame" x="0.0" y="305" width="600" height="295"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1960784314" green="0.58039215690000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Robot App">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PwK-Gr-ZdL">
+                                <rect key="frame" x="0.0" y="20" width="600" height="280"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1960784314" green="0.58039215690000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Client">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yB9-1C-nH2" kind="show" id="eDS-XJ-ZL3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LVf-2M-Jug" secondAttribute="trailing" id="6US-Us-qJJ"/>
+                            <constraint firstItem="PwK-Gr-ZdL" firstAttribute="top" secondItem="7fN-jJ-7n4" secondAttribute="bottom" id="G0M-Le-UBI"/>
+                            <constraint firstItem="LVf-2M-Jug" firstAttribute="leading" secondItem="jq9-88-EqU" secondAttribute="leading" id="NEz-i3-jSW"/>
+                            <constraint firstItem="yKW-Xy-SUz" firstAttribute="top" secondItem="PwK-Gr-ZdL" secondAttribute="bottom" multiplier="2" id="j7A-s2-ucp"/>
+                            <constraint firstItem="yKW-Xy-SUz" firstAttribute="top" secondItem="LVf-2M-Jug" secondAttribute="bottom" id="jxX-0t-nCW"/>
+                            <constraint firstAttribute="trailing" secondItem="PwK-Gr-ZdL" secondAttribute="trailing" id="ogR-fy-nch"/>
+                            <constraint firstItem="PwK-Gr-ZdL" firstAttribute="leading" secondItem="jq9-88-EqU" secondAttribute="leading" id="q5s-xb-A83"/>
+                            <constraint firstItem="LVf-2M-Jug" firstAttribute="top" secondItem="PwK-Gr-ZdL" secondAttribute="bottom" constant="5" id="qil-zv-kvI"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zvt-J6-3OH"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m6o-vq-wCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="321" y="-380"/>
+        </scene>
+        <!--LoginViewController-->
+        <scene sceneID="jdP-RA-cKY">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Client" storyboardName="Client" referencedIdentifier="LoginViewController" id="yB9-1C-nH2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8y-RB-fCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888.5" y="-504"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3ju-RW-myy">
+            <objects>
+                <navigationController id="uJn-uO-fis" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h35-Yc-8Ak">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nwX-hD-icy" kind="relationship" relationship="rootViewController" id="Ch6-yJ-UNn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rxK-Ai-CVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-402" y="-380"/>
         </scene>
     </scenes>
 </document>
